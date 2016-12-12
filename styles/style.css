@@ -1,4 +1,8 @@
 /*basic*/
+.g-clear
+{
+    clear:both;
+}
 .b-page
 {
     width:100%;
@@ -272,4 +276,154 @@
 }
 .b-teammate__head {
     font-weight:bold;
+}
+.b-companies__img
+{
+    margin-left: 9px;
+}
+/*footer*/
+.b-page__footer
+{
+    margin-top:15px;
+    background-color:#7e7e7e;
+}
+.b-footer
+{
+    width:960px;
+    margin:0 auto;
+}
+.b-footer__twitter, .b-footer__sitemap, .b-footer__social
+{
+    margin-top:15px;
+    margin-left:10px;
+    float:left;
+}
+.b-twitter
+{
+    width:300px;
+}
+.b-networks
+{
+    width:130px;
+}
+.b-sitemap
+{
+    width: 150px;
+}
+.b-twitter__header, .b-sitemap__header, .b-networks__header
+{
+    color:#fff;
+    font-size:14px;
+    width:100%;
+    border-bottom:1px solid #878787;
+}
+.b-twitter__time
+{
+    margin-top:5px;
+    font-size:11px;
+    color:#b4aeae;
+    text-decoration:underline;
+}
+.b-twitter__text
+{
+    margin-top:5px;
+    font-size:11px;
+    color:#dbdbdb;
+}
+.b-sitemap__links
+{
+    float:left;
+}
+.b-link_white
+{
+    color:#dbdbdb;
+}
+.b-link_undecorate
+{
+    text-decoration:none;
+}
+.b-link_block
+{
+    margin-top:8px;
+    display:block;
+}
+.b-sitemap__links_right
+{
+    float:right;
+    margin-right:20px;
+}
+.b-networks__icon
+{
+    background:url("../img/social.png") 0 0;
+    width:30px;
+    height:30px;
+    display: inline-block;
+    margin-top:10px;
+    margin-right:10px;
+}
+.b-networks__icon_small
+{
+    width:16px;
+    height:16px;
+    margin-right:5px;
+}
+.b-networks__icon_twitter
+{
+    background-position:0 0;
+}
+.b-networks__icon_facebook
+{
+    background-position: -40px 0;
+}
+.b-networks__icon_google
+{
+    background-position:-80px 0;
+}
+.b-networks__icon_vimeo
+{
+    background-position:0 -38px;
+}
+.b-networks__icon_youtube
+{
+    background-position: -23px -38px;
+}
+.b-networks__icon_flickr
+{
+    background-position: -46px -38px;
+}
+.b-networks__icon_instagram
+{
+    background-position: -69px -38px;
+}
+.b-networks__icon_rss
+{
+    background-position: -92px -38px;
+}
+
+.b-footer__logo
+{
+    float:right;
+    margin-top:23px;
+    margin-right:40px;
+}
+.b-footer-logo__img
+{
+    float:right;
+}
+.b-footer-logo__copyright
+{
+    clear:right;
+}
+.b-link_small
+{
+    font-size:10px;
+}
+.b-footer-logo__copyright
+{
+    font-size:10px;
+    color:#dbdbdb;
+}
+.b-footer__underline
+{
+    height:10px;
 }
